@@ -25,7 +25,7 @@ public class ExceptionServiceImpl extends BaseServiceImpl<Exceptions> implements
 
 
     /**
-     * 异步插入记录 韦德 2018年8月13日13:33:29
+     * 异步插入记录  2018年8月13日13:33:29
      *
      * @param exceptions
      * @return

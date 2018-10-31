@@ -106,7 +106,7 @@ var tableIndex;
 function initService(r) {
     return {
         /**
-         * 审批通过 韦德 2018年8月30日14:58:13
+         * 审批通过  2018年8月30日14:58:13
          * @param param
          * @param callback
          */
@@ -117,7 +117,7 @@ function initService(r) {
             });
         },
         /**
-         * 拒绝审批 韦德 2018年8月30日14:58:13
+         * 拒绝审批  2018年8月30日14:58:13
          * @param param
          * @param callback
          */

@@ -11,19 +11,19 @@ import java.util.List;
 
 public interface IBaseService<T> {
     /**
-     * 获取数据 韦德 2018年8月13日13:26:57
+     * 获取数据  2018年8月13日13:26:57
      * @return
      */
     T get(T param);
 
     /**
-     * 获取全部数据 韦德 2018年8月13日13:26:57
+     * 获取全部数据  2018年8月13日13:26:57
      * @return
      */
     List<T> getList();
 
     /**
-     * 分页获取全部数据 韦德 2018年8月13日13:27:17
+     * 分页获取全部数据  2018年8月13日13:27:17
      * @param page
      * @param limit
      * @param condition
@@ -33,21 +33,21 @@ public interface IBaseService<T> {
 
 
     /**
-     * 插入数据 韦德 2018年8月13日13:27:48
+     * 插入数据  2018年8月13日13:27:48
      * @param param
      * @return
      */
     int insert(T param);
 
     /**
-     * 更新数据 韦德 2018年8月13日13:28:01
+     * 更新数据  2018年8月13日13:28:01
      * @param param
      * @return
      */
     int update(T param);
 
     /**
-     * 删除数据 韦德 2018年8月13日13:28:16
+     * 删除数据  2018年8月13日13:28:16
      * @param param
      * @return
      */

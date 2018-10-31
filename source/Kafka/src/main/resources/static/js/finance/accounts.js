@@ -1,4 +1,4 @@
-/*!财务模块-会计账簿 韦德 2018年8月27日01:05:05*/
+/*!财务模块-会计账簿  2018年8月27日01:05:05*/
 var route = "./accounts";
 var service;
 var tableIndex;

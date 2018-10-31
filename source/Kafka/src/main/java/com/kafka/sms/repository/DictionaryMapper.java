@@ -27,7 +27,7 @@ public interface DictionaryMapper extends MyMapper<Dictionary> {
 
     @Select("SELECT * FROM tb_dictionary WHERE `key` LIKE '${likeKey}%'")
     /**
-     * 模糊查询 韦德 2018年8月18日13:14:02
+     * 模糊查询  2018年8月18日13:14:02
      * @param likeKey
      * @return
      */

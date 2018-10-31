@@ -1,4 +1,4 @@
-/*!佣金模块-会计账簿 韦德 2018年8月27日01:05:05*/
+/*!佣金模块-会计账簿  2018年8月27日01:05:05*/
 var route = "./";
 var service;
 var tableIndex;
@@ -52,7 +52,7 @@ var tableIndex;
 function initService(r) {
     return {
         /**
-         * 加载编辑页面 韦德 2018年8月29日16:11:37
+         * 加载编辑页面  2018年8月29日16:11:37
          * @param param
          * @param callback
          */

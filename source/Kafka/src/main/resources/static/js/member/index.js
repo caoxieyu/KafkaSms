@@ -1,4 +1,4 @@
-/*!财务模块-会计账簿 韦德 2018年8月27日01:05:05*/
+/*!财务模块-会计账簿  2018年8月27日01:05:05*/
 var route = "/management/member";
 var service;
 var tableIndex;
@@ -134,7 +134,7 @@ var tableIndex;
 function initService(r) {
     return {
         /**
-         * 修改密码 韦德 2018年8月30日14:58:13
+         * 修改密码  2018年8月30日14:58:13
          * @param param
          * @param callback
          */
@@ -146,7 +146,7 @@ function initService(r) {
             });
         },
         /**
-         * 删除用户 韦德 2018年8月30日14:58:13
+         * 删除用户  2018年8月30日14:58:13
          * @param param
          * @param callback
          */
@@ -158,7 +158,7 @@ function initService(r) {
             });
         },
         /**
-         * 冻结用户 韦德 2018年8月30日14:58:13
+         * 冻结用户  2018年8月30日14:58:13
          * @param param
          * @param callback
          */
@@ -170,7 +170,7 @@ function initService(r) {
             });
         },
         /**
-         * 设置权限 韦德 2018年9月1日02:47:07
+         * 设置权限  2018年9月1日02:47:07
          * @param param
          * @param callback
          */
@@ -180,7 +180,7 @@ function initService(r) {
             });
         },
         /**
-         * 设置代理商 韦德 2018年10月21日10:54:24
+         * 设置代理商  2018年10月21日10:54:24
          * @param param
          * @param callback
          */

@@ -13,7 +13,7 @@ import java.util.List;
 
 public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     /**
-     * 获取数据 韦德 2018年8月13日13:26:57
+     * 获取数据  2018年8月13日13:26:57
      *
      * @param param
      * @return
@@ -24,7 +24,7 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     }
 
     /**
-     * 获取全部数据 韦德 2018年8月13日13:26:57
+     * 获取全部数据  2018年8月13日13:26:57
      *
      * @return
      */
@@ -34,7 +34,7 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     }
 
     /**
-     * 分页获取全部数据 韦德 2018年8月13日13:27:17
+     * 分页获取全部数据  2018年8月13日13:27:17
      *
      * @param page
      * @param limit
@@ -47,7 +47,7 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     }
 
     /**
-     * 插入数据 韦德 2018年8月13日13:27:48
+     * 插入数据  2018年8月13日13:27:48
      *
      * @param param
      * @return
@@ -58,7 +58,7 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     }
 
     /**
-     * 更新数据 韦德 2018年8月13日13:28:01
+     * 更新数据  2018年8月13日13:28:01
      *
      * @param param
      * @return
@@ -69,7 +69,7 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
     }
 
     /**
-     * 删除数据 韦德 2018年8月13日13:28:16
+     * 删除数据  2018年8月13日13:28:16
      *
      * @param param
      * @return

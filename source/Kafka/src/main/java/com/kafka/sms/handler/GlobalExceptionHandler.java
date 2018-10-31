@@ -9,6 +9,7 @@ package com.kafka.sms.handler;
 
 import com.alibaba.druid.support.json.JSONUtils;
 import com.alibaba.fastjson.JSON;
+import com.kafka.sms.entity.Constant;
 import com.kafka.sms.entity.JsonResult;
 import com.kafka.sms.exception.InfoException;
 import com.kafka.sms.exception.MsgException;
@@ -55,7 +56,7 @@ public class GlobalExceptionHandler {
     public JsonResult preException(HttpServletRequest request,
                                  TimeoutException exception) throws Exception {
         logger.error(String.format("超时异常消息: %s",JsonUtil.getJsonNotEscape(exception)));
-        return new JsonResult().failingAsString("超时");
+        return new JsonResult().failingAsString("操作超时");
     }
 
     @ExceptionHandler(value = RuntimeException.class)
@@ -68,14 +69,15 @@ public class GlobalExceptionHandler {
             return  new JsonResult().normalExceptionAsString("已存在");
         }
 
-        return new JsonResult().failingAsString("异常");
+        return new JsonResult().failingAsString("环境错误");
     }
 
     @ExceptionHandler(value = Exception.class)
     public JsonResult preException(HttpServletRequest request,
                                  Exception exception) throws Exception {
         logger.error(String.format("全局异常: %s",JsonUtil.getJsonNotEscape(exception)));
-        return new JsonResult().failingAsString("故障");
+        return new JsonResult().failingAsString("未知错误");
+        //return new JsonResult().failingAsString(JsonUtil.getJsonNotEscape(exception));
     }
 }
 

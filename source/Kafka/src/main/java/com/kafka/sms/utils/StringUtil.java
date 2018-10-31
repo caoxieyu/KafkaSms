@@ -102,7 +102,7 @@ public class StringUtil {
 	}
 
 	/**
-	 * 通过HashSet特性剔除list中重复的数据 韦德 2018年9月1日02:34:28
+	 * 通过HashSet特性剔除list中重复的数据  2018年9月1日02:34:28
 	 * @param list
 	 * @return
 	 */

@@ -15,7 +15,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface ExceptionMapper extends MyMapper<Exceptions> {
     @Insert("INSERT INTO tb_exceptions(`body`,`add_time`) VALUES(#{body},NOW())")
     /**
-     * 插入记录 韦德 2018年8月16日16:33:19
+     * 插入记录  2018年8月16日16:33:19
      */
     int insert(Exceptions exceptions);
 }

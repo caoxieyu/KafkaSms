@@ -1,4 +1,4 @@
-/*!房卡模块-会计账簿 韦德 2018年8月27日01:05:05*/
+/*!房卡模块-会计账簿  2018年8月27日01:05:05*/
 var route = "/management/room";
 var service;
 var tableIndex;
@@ -53,7 +53,7 @@ var tableIndex;
 function initService(r) {
     return {
         /**
-         * 充值 韦德 2018年8月30日14:58:13
+         * 充值  2018年8月30日14:58:13
          * @param param
          * @param callback
          */
@@ -65,7 +65,7 @@ function initService(r) {
             });
         },
         /**
-         * 拒绝 韦德 2018年8月30日14:58:13
+         * 拒绝  2018年8月30日14:58:13
          * @param param
          * @param callback
          */

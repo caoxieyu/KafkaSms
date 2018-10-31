@@ -54,7 +54,7 @@ public class JsonArrayResult<T> extends JsonResult{
     }
 
     /**
-     * 失败JSON 韦德 2018年8月13日13:03:35
+     * 失败JSON  2018年8月13日13:03:35
      * @return
      */
     public static JsonArrayResult failing(){

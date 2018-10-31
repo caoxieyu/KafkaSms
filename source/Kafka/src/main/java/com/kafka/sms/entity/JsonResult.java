@@ -29,7 +29,7 @@ public class JsonResult<T> {
     }
 
     /**
-     * 成功JSON 韦德 2018年8月13日13:03:35
+     * 成功JSON  2018年8月13日13:03:35
      * @param msg
      * @return
      */
@@ -54,7 +54,7 @@ public class JsonResult<T> {
     }
 
     /**
-     * 成功JSON 韦德 2018年8月13日13:03:35
+     * 成功JSON  2018年8月13日13:03:35
      * @return
      */
     public static JsonResult successful(){
@@ -62,7 +62,7 @@ public class JsonResult<T> {
     }
 
     /**
-     * 失败JSON 韦德 2018年8月13日13:03:35
+     * 失败JSON  2018年8月13日13:03:35
      * @param msg
      * @return
      */
@@ -74,9 +74,8 @@ public class JsonResult<T> {
         return new JsonResult(500, msg);
     }
 
-
     /**
-     * 失败JSON 韦德 2018年8月13日13:03:35
+     * 失败JSON  2018年8月13日13:03:35
      * @return
      */
     public static JsonResult failing(){
