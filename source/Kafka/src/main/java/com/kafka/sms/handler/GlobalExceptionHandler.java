@@ -15,7 +15,6 @@ import com.kafka.sms.exception.MsgException;
 import com.kafka.sms.utils.JsonUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -44,12 +43,12 @@ public class GlobalExceptionHandler {
         return  new JsonResult().normalExceptionAsString(exception.getMsg() == null ? "错误" : exception.getMsg());
     }
 
-    @ExceptionHandler(value = UsernameNotFoundException.class)
+/*    @ExceptionHandler(value = UsernameNotFoundException.class)
     public JsonResult preException(HttpServletRequest request,
                                    UsernameNotFoundException exception) throws Exception {
         logger.error(String.format("security异常消息: %s",JsonUtil.getJsonNotEscape(exception)));
         return  new JsonResult().normalExceptionAsString(exception.getMessage() == null ? "登陆失败" : exception.getMessage());
-    }
+    }*/
 
 
     @ExceptionHandler(value = TimeoutException.class)

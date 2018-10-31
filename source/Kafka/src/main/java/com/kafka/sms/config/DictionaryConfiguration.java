@@ -1,5 +1,5 @@
 /***
- * @pName management
+ * @pName Kafka
  * @name DictionaryConfiguration
  * @user DF
  * @date 2018/8/16
@@ -7,6 +7,7 @@
  */
 package com.kafka.sms.config;
 
+import com.kafka.sms.biz.IDictionaryService;
 import com.kafka.sms.entity.DataDictionary;
 import com.kafka.sms.entity.db.Dictionary;
 import com.kafka.sms.exception.InfoException;
@@ -21,12 +22,12 @@ import java.util.Map;
 @Configuration
 public class DictionaryConfiguration {
     @Autowired
-    private com.kafka.sms.biz.IDictionaryService IDictionaryService;
+    private IDictionaryService dictionaryService;
 
     @Bean
     public List<Dictionary> loadDictionary(){
-        List<Dictionary> list = IDictionaryService.getList();
-        if(list == null || list.isEmpty()) throw new InfoException("");
+        List<Dictionary> list = dictionaryService.getList();
+        if(list == null || list.isEmpty()) throw new InfoException("数据字典不能为空");
         return list;
     }
 

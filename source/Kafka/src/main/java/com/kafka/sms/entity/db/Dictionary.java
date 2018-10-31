@@ -1,7 +1,7 @@
 /***
  * @pName management
  * @name Dictionary
- * @user DF
+ * @user HongWei
  * @date 2018/8/16
  * @desc
  */

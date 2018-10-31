@@ -1,7 +1,7 @@
 /***
  * @pName management
  * @name DictionaryMapper
- * @user DF
+ * @user HongWei
  * @date 2018/8/16
  * @desc
  */
@@ -34,6 +34,6 @@ public interface DictionaryMapper extends MyMapper<Dictionary> {
     List<Dictionary> selectByKey(@Param("likeKey") String likeKey);
 
     @Update("UPDATE tb_dictionary SET `value`=#{url} WHERE dictionary_id=#{dictionaryId}")
-    int updateUrlById(@Param("dictionaryId") Integer dictionaryId,@Param("url") String url);
+    int updateUrlById(@Param("dictionaryId") Integer dictionaryId, @Param("url") String url);
 
 }
